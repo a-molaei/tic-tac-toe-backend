@@ -1,0 +1,11 @@
+type Game {
+    id: String!,
+    firstPlayerName: String,
+    secondPlayerName: String,
+    firstPlayerMoves: [Int],
+    secondPlayerMoves: [Int],
+    firstPlayerNumberOfWins: Int,
+    secondPlayerNumberOfWins: Int,
+    totalPlays: Int,
+    nextTurn: String
+}

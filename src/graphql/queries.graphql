@@ -1,0 +1,4 @@
+type Query {
+    getOpenGames: [Game],
+    getGameById(gameId:String!): Game
+}

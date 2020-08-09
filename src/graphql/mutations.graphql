@@ -1,0 +1,6 @@
+type Mutation {
+    createGame(firstPlayerName:String!): String,
+    joinGame(gameId:String!, secondPlayerName:String!): String,
+    move(gameId:String!, playerName:String!, position: Int!): String
+    resetGame(gameId:String!): String,
+}
